@@ -6,7 +6,7 @@ function Home() {
       <section className="custom-grid  h-screen px-20 py-8">
         <div className=" bg-[#1f1b24]   rounded-3xl col-start-1 col-end-2 row-start-1 row-end-3 ">
           <h1 className="text-[5rem] font-bold  mt-5 ml-9">
-            Making People Happy Through Food
+            Making People Happy Through Food not food
           </h1>
           <div className="flex">
             <div className="flex-1/2 ">

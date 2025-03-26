@@ -12,7 +12,6 @@ function MainLayout({ children }: MainLayoutProps) {
         <Navbar />
       </AutoHideComponent>
       {children}
-      okay this is new
     </>
   );
 }

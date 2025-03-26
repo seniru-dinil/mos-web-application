@@ -24,8 +24,8 @@ const AutoHideComponent: React.FC<AutoHideComponentProps> = ({ children }) => {
 
   return (
     <div
-      className={`fixed left-1 top-1/2 transform -translate-y-1/2 transition-all duration-500 z-10 ${
-        isVisible ? "translate-x-0" : "translate-x-[-120%]"
+      className={`fixed left-[0.69rem] top-1/2 transform -translate-y-1/2 transition-all duration-500 z-10 ${
+        true ? "translate-x-0" : "translate-x-[-120%]"
       }`}
     >
       {children}

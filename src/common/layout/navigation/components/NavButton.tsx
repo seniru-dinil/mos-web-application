@@ -25,9 +25,7 @@ const NavButton: React.FC<NavButtonProps> = ({ path, children, ...props }) => {
           isActive ? "bg-zinc-900" : "bg-white/6"
         }`}
       >
-        <span className="text-[1.15rem] opacity-65 hover:opacity-100 transition-all">
-          {children}
-        </span>
+        <span className="text-[1.15rem] text-[#bb86f3] ">{children}</span>
       </button>
     </>
   );

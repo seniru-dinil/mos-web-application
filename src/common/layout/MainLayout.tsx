@@ -13,6 +13,7 @@ function MainLayout({ children }: MainLayoutProps) {
       </AutoHideComponent>
       <h1>this is main lay out yow</h1>
       {children}
+      okay this is new
     </>
   );
 }

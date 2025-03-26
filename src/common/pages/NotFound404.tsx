@@ -1,4 +1,4 @@
-import NavButton from "../layout/navigation/components/NavButton";
+import { Link } from "react-router-dom";
 
 function NotFound404() {
   return (
@@ -8,12 +8,9 @@ function NotFound404() {
           <h1 className="text-6xl">404</h1>
           <h2 className="font-bold text-3xl">page not found</h2>
         </div>
-        <NavButton
-          path="/home"
-          className="bg-[#1A1A1D] px-4 py-2.5 cursor-pointer rounded-md"
-        >
+        <Link to={"/home"} className="underline">
           back to home
-        </NavButton>
+        </Link>
       </div>
     </>
   );

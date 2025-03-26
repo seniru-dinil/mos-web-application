@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       <nav className="flex flex-col gap-2 bg-[#1A1A1D]/70 py-2 rounded-full px-2 w-fit">
-        <NavButton path="/home">
+        <NavButton path="/home" onClick={() => console.log("hello world")}>
           <AiFillHome />
         </NavButton>
         <NavButton path="/cart">

@@ -3,6 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 
 function Navbar() {
   return (
@@ -19,6 +20,9 @@ function Navbar() {
         </NavButton>
         <NavButton>
           <MdLightMode />
+        </NavButton>
+        <NavButton>
+          <MdDarkMode />
         </NavButton>
       </nav>
     </>
